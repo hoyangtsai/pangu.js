@@ -38,7 +38,7 @@
     "pangu": "./dist/node/cli.js"
   },
   "scripts": {
-    "pack:chrome": "npm run build:browser && cp -rf ./dist/browser/pangu.min.js ./browser_extensions/chrome/vendors/pangu/pangu.min.js && cd ./browser_extensions/chrome/ && zip -q -r -0 ../paranoid-auto-spacing.zip . && zip -j ../paranoid-auto-spacing.zip ~/Dropbox/Projects/paranoid-auto-spacing/key.pem",
+    "pack:chrome": "npm run build:browser && cp -rf ./dist/browser/pangu.min.js ./browser_extensions/chrome/vendors/pangu/pangu.min.js && cd ./browser_extensions/chrome/ && zip -q -r -0 ../paranoid-auto-spacing.zip . && [ -d ~/Dropbox/Projects/paranoid-auto-spacing/ ] && zip -j ../paranoid-auto-spacing.zip ~/Dropbox/Projects/paranoid-auto-spacing/key.pem || echo '~/Dropbox/Projects/paranoid-auto-spacing/' not exists",
     "pack:firefox": "node ./browser_extensions/firefox/pack.js",
     "pack:safari": "xcrun safari-web-extension-converter ./browser_extensions/chrome --swift --project-location ./browser_extensions/safari",
     "pack": "npm run pack:chrome && npm run pack:firefox",
