@@ -1,7 +1,7 @@
-# Privacy
+# 隱私權
 
-Our application respects and protects your privacy. We promise not to collect any personally identifiable information from you, including your name, email address, contact information, or geographic location. Additionally, our application does not use cookies or similar technologies to track your browsing activity or collect any other personal information.
+我們的應用程式尊重並保護您的隱私權。我們承諾不收集任何與您有關的個人資料，包括姓名、電子郵件地址、聯繫方式、地理位置等等。此外，我們的應用程式不會使用cookie或類似技術來追蹤您的瀏覽活動或收集任何其他個人資訊。
 
-All settings and personalization information will be stored on your local device and will not be shared or transmitted to any third-party servers. Our application only uses information on your local device to provide the best user experience and functionality.
+所有設定和個人化的資訊都將儲存在您的本地設備中，不會被共享或傳送到任何第三方伺服器。我們的應用程式僅使用您的本地設備上的資訊來提供最佳的使用體驗和功能。
 
-We respect your privacy and are committed to protecting it. If you have any questions or concerns about our privacy policy, please feel free to contact us, and we will be happy to assist you.
+我們尊重您的隱私權並致力於保護它。如果您有任何有關我們的隱私權政策的問題或疑慮，請隨時聯繫我們，我們將竭誠為您解答。
