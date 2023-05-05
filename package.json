@@ -64,6 +64,7 @@
     "@babel/core": "7.2.2",
     "@babel/preset-env": "7.2.3",
     "@babel/register": "7.0.0",
+    "@types/chrome": "^0.0.235",
     "babel-loader": "8.0.4",
     "benchmark": "2.1.4",
     "chai": "4.2.0",
