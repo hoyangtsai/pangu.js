@@ -15,9 +15,14 @@
 <body ng-controller="OptionsController">
     <div class="options_container">
         <div class="header">
+            <span ng-if="!isSafari">
             <h1 id="header_title">為什麼你們就是不能加個空格呢？</h1>
             <p id="subtitle">自動在網頁中所有的中文字和半形的英文、數字、符號之間插入空白。</p>
             <p id="quote">漢學家稱這個空白字元為「盤古之白」，因為它劈開了全形字和半形字之間的混沌。另有研究顯示，打字的時候不喜歡在中文和英文之間加空格的人，感情路都走得很辛苦，有七成的比例會在 34 歲的時候跟自己不愛的人結婚，而其餘三成的人最後只能把遺產留給自己的貓。畢竟愛情跟書寫都需要適時地留白。</p>
+            </span>
+            <span ng-if="isSafari">
+                <h1 id="header_title">選項</h1>
+            </span>
         </div>
         <div class="content">
             <div class="option_group">
@@ -67,13 +72,18 @@
             </div>
         </div>
     </div>
-    <div class="options_footer">
+    <div class="options_footer" style="margin-top:auto;">
+        <span ng-if="!isSafari">
         <p>Rate me on <a href="https://chrome.google.com/webstore/detail/為什麼你們就是不能加個空格呢？/paphcfdffjnbcgkokihcdjliihicmbpd/reviews" target="_blank">Chrome Web Store</a></p>
         <p>Fork me on <a href="https://github.com/vinta/pangu.js" target="_blank">GitHub</a></p>
         <p>Follow me on <a href="https://twitter.com/vinta" target="_blank">Twitter</a></p>
         <p>Icons: <a href="http://thenounproject.com/term/afro/1500/" target="_blank">NounProject</a></p>
         <p>Sounds: <a href="http://soundfxnow.com/" target="_blank">SoundFXNow</a></p>
         <p class="copyleft"><a href="http://zh.wikipedia.org/wiki/Copyleft" target="_blank">Copyleft</a> <span id="copyleft_symbol" style="-webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -o-transform: rotate(180deg); -khtml-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg); display: inline-block;">&copy;</span> <a href="https://vinta.ws/">Vinta</a> All rights not reserved</p>
+        </span>
+        <span ng-if="isSafari">
+            <p class="copyright">&copy; 2023 PassionDog Inc.</p>
+        </span>
     </div>
 </body>
 </html>

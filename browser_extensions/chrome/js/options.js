@@ -177,6 +177,7 @@ app.controller('OptionsController', [
       IS_MUTE = new_val;
     });
 
+    $scope.isSafari =  utils_chrome.isSafari;
   }
 ]);
 

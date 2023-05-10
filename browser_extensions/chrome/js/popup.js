@@ -69,5 +69,7 @@ app.controller('PopupController', [
     $scope.open_options_page = function() {
       chrome.tabs.create({url: 'pages/options.html'});
     };
+
+    $scope.isSafari =  utils_chrome.isSafari;
   }
 ]);

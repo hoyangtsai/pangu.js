@@ -1,3 +1,15 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 // Options Page
 
 $link-color: #3b8bba;
@@ -88,6 +100,7 @@ input[type=text] {
   font-size: 130%;
   margin: 0 auto;
   max-width: 940px;
+  flex: 1;
 
   .header {
     background-color: #eff3f4;
@@ -154,6 +167,7 @@ input[type=text] {
   background-color: #ecf0f2;
   padding: 40px 80px 30px 80px;
   text-align: center;
+  flex: 0 1;
 
   p {
     font-size: 110%;
